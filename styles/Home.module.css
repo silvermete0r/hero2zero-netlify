@@ -73,8 +73,7 @@
 }
 
 .ruleImage {
-  width: 150px;
-  border-radius: 10px;
+  width: 80px;
   height: auto;
   margin-bottom: 1rem;
 }
@@ -82,4 +81,28 @@
 .ruleItem p {
   text-align: center;
   font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .quote q {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 1.2rem;
+  }
+
+  .rulesList {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .ruleImage {
+    width: 60px;
+  }
+
+  .ruleItem p {
+    font-size: 0.9rem;
+  }
 }

@@ -14,8 +14,8 @@
   color: #666;
 }
 
-.footer a {
-  font-weight: 550;
-  color: #0a876a;
-  text-decoration: none;
+@media (max-width: 768px) {
+  .footer p {
+    font-size: 0.9rem;
+  }
 }
