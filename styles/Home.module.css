@@ -73,7 +73,8 @@
 }
 
 .ruleImage {
-  width: 80px;
+  width: 150px;
+  border-radius: 10px;
   height: auto;
   margin-bottom: 1rem;
 }
@@ -96,10 +97,6 @@
   .rulesList {
     grid-template-columns: 1fr;
     gap: 1rem;
-  }
-
-  .ruleImage {
-    width: 60px;
   }
 
   .ruleItem p {
