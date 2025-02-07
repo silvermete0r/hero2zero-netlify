@@ -1,10 +1,11 @@
 import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
+import Link from 'next/link';
 import styles from '@styles/Home.module.css';
 
 const rules = [
-  "Procrastinate everything until the last minute.",
+  "Keeping everything for the last minute.",
   "Ignore healthy eating habits.",
   "Skip regular exercise.",
   "Avoid setting goals.",
@@ -18,7 +19,12 @@ const rules = [
   "Avoid learning new skills.",
   "Ignore feedback and criticism.",
   "Procrastinate sleep and rest.",
-  "Make excuses for everything."
+  "Make excuses for everything.",
+  "Smoke, drink, and do drugs.",
+  "Play video games excessively.",
+  "Wasting of food",
+  "Neglecting to recycle",
+  "Swearing, speaking rudely, and behaving uncivilely"
 ];
 
 export default function Home() {
@@ -37,7 +43,7 @@ export default function Home() {
           <cite><a href="https://dictionary.cambridge.org/dictionary/english/hero-to-zero" target="_blank">Cambridge Dictionary</a></cite>
         </blockquote>
         <p className={styles.description}>
-          <code>TOP 15 Degradation Rules</code>
+          <code>TOP 20 Degradation Rules</code>
         </p>
         <div className={styles.rulesList}>
           {rules.map((rule, index) => (
@@ -47,6 +53,9 @@ export default function Home() {
             </div>
           ))}
         </div>
+        <Link href="/quotes" className={styles.textLink}>
+          View Productivity Quotes →
+        </Link>
       </main>
 
       <Footer />

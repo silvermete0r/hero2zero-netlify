@@ -84,6 +84,19 @@
   font-size: 1rem;
 }
 
+.textLink {
+  color: #0070f3;
+  text-decoration: none;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.textLink:hover {
+  color: #0051b3;
+  text-decoration: underline;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
   .quote q {
