@@ -37,6 +37,9 @@ export default function Home() {
 
       <main className={styles.main}>
         <Header title="From Hero to Zero Habits" />
+        <div className={styles.disclaimer}>
+          ⚠️ Disclaimer: This project aims to highlight habits to avoid! The goal is to recognize these degradation factors and actively work to prevent them.
+        </div>
         <img src="/images/wolf-quote.jpg" alt="The Weak will be eaten" className={styles.heroImage} />
         <blockquote className={styles.quote}>
           <q>From hero to zero is a situation in which someone changes quickly from being very successful to being very unsuccessful.</q>

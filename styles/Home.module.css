@@ -97,6 +97,18 @@
   text-decoration: underline;
 }
 
+.disclaimer {
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  color: #856404;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  max-width: 800px;
+  text-align: center;
+  font-weight: 500;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
   .quote q {
