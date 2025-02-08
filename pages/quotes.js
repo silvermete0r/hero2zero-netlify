@@ -14,6 +14,18 @@ const quotes = [
     author: "Larry Page"
   },
   {
+    text: "Skills speak louder than words.",
+    author: "HackerRank"
+  },
+  {
+    text: "The best developers are not who know everything, but those who never stop learning.",
+    author: "HackerRank"
+  },
+  {
+    text: "Don't wait for the perfect moment, take the moment and make it perfect.",
+    author: "Zoey Sayward"
+  },
+  {
     text: "The way to get started is to quit talking and begin doing.",
     author: "Walt Disney"
   },
