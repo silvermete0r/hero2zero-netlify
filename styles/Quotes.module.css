@@ -31,6 +31,7 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 0;
+  position: relative; /* Make the quote item positioned */
 }
 
 .quoteItem q {
@@ -38,6 +39,7 @@
   font-size: 1.2rem;
   margin-bottom: 1rem;
   line-height: 1.6;
+  margin-top: 1.5rem; /* Add space between ID and quote */
 }
 
 .quoteItem cite {
@@ -57,4 +59,14 @@
 .homeLink:hover {
   color: #0051b3;
   text-decoration: underline;
+}
+
+.quoteId {
+  background-color: transparent; /* Remove background color */
+  color: #666; /* Change color to a subtle grey */
+  padding: 0; /* Remove padding */
+  font-size: 1rem; /* Adjust font size */
+  position: absolute; /* Position it absolutely */
+  top: 1rem; /* Distance from the top of the quote item */
+  left: 1rem; /* Distance from the left of the quote item */
 }
