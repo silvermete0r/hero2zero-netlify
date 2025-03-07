@@ -132,6 +132,26 @@ const quotes = [
   {
     text: "Success is not always about greatness. It’s about consistency.",
     author: "Dwayne Johnson"
+  },
+  {
+    text: "Long-term consistency trumps short-term intensity.",
+    author: "Bruce Lee"
+  },
+  {
+    text: "To be successful you don't need to do extraordinary things, you just need to do ordinary things extraordinarily well.",
+    author: "Jim Rohn"
+  }, 
+  {
+    text: "Success is the sum of small efforts, repeated day in and day out.",
+    author: "Robert Collier"
+  }, 
+  {
+    text: "Consistency is the true foundation of trust. Either keep your promises or do not make them.",
+    author: "Roy T. Bennett"
+  },
+  {
+    text: "Without consistency, there is no moral strength.",
+    author: "John Owen"
   }
 ];
 
