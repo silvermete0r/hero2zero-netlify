@@ -6,6 +6,18 @@ import styles from '@styles/Quotes.module.css';
 
 const quotes = [
   {
+    text: "You don't need more time, you need less distrctions.",
+    author: "Unknown"
+  },
+  {
+    text: "Be less curious about people and more curious about ideas.",
+    author: "Marie Curie" 
+  },
+  {
+    text: "The saddest part of life is when the person who gave you the best memories becomes a memory.",
+    author: "Unknown"
+  },
+  {
     text: "Everything is easy when you are busy. But nothing is easy when you are lazy.",
     author: "Swami Vivekananda"
   },
