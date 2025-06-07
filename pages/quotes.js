@@ -6,7 +6,23 @@ import styles from '@styles/Quotes.module.css';
 
 const quotes = [
   {
-    text: "You don't need more time, you need less distrctions.",
+    text: "Yesterday is history; Tomorrow is a mystery; Today is a gift; That's why it's called present;",
+    author: "Master Oogway"
+  },
+  {
+    text: "Your discipline is your Product; Your name is your Brand; Your habits are your Investments;",
+    author: "Adam Broda"
+  },
+  {
+    text: "All fauilure is the failure to adapt. Success is successful adaptation.",
+    author: "Max McKeown"
+  },
+  {
+    text: "The measure of intelligence is the ability to change.",
+    author: "Albert Einstein"
+  },
+  {
+    text: "You don't need more time, you need less distractions.",
     author: "Unknown"
   },
   {
